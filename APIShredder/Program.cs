@@ -6,7 +6,7 @@ Console.WriteLine("DISCLAIMER: Use only for testing purposes.");
 Console.WriteLine("Press any key to continue...");
 Console.ReadLine();
 
-int numSock = Setup.GetIntegerData("Choose the number of sockets (possible concurrent slots for api calls):");
+int numSock = Setup.GetIntegerData("Choose the number of sockets (possible slots for concurrent api calls):");
 string cookieName = Setup.GetStringData("Please enter authentication cookie NAME:");
 string cookieValue = Setup.GetStringData("Please enter authentication cookie VALUE:");
 int reqNum = Setup.GetIntegerData("How many requests to perform? (in total):");
