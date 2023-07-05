@@ -1,0 +1,15 @@
+C:\Users\Wydrzu\source\repos\APIShredder\APIShredder\obj\Debug\net7.0\APIShredder.csproj.AssemblyReference.cache
+C:\Users\Wydrzu\source\repos\APIShredder\APIShredder\obj\Debug\net7.0\APIShredder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Wydrzu\source\repos\APIShredder\APIShredder\obj\Debug\net7.0\APIShredder.AssemblyInfoInputs.cache
+C:\Users\Wydrzu\source\repos\APIShredder\APIShredder\obj\Debug\net7.0\APIShredder.AssemblyInfo.cs
+C:\Users\Wydrzu\source\repos\APIShredder\APIShredder\obj\Debug\net7.0\APIShredder.csproj.CoreCompileInputs.cache
+C:\Users\Wydrzu\source\repos\APIShredder\APIShredder\bin\Debug\net7.0\APIShredder.exe
+C:\Users\Wydrzu\source\repos\APIShredder\APIShredder\bin\Debug\net7.0\APIShredder.deps.json
+C:\Users\Wydrzu\source\repos\APIShredder\APIShredder\bin\Debug\net7.0\APIShredder.runtimeconfig.json
+C:\Users\Wydrzu\source\repos\APIShredder\APIShredder\bin\Debug\net7.0\APIShredder.dll
+C:\Users\Wydrzu\source\repos\APIShredder\APIShredder\bin\Debug\net7.0\APIShredder.pdb
+C:\Users\Wydrzu\source\repos\APIShredder\APIShredder\obj\Debug\net7.0\APIShredder.dll
+C:\Users\Wydrzu\source\repos\APIShredder\APIShredder\obj\Debug\net7.0\refint\APIShredder.dll
+C:\Users\Wydrzu\source\repos\APIShredder\APIShredder\obj\Debug\net7.0\APIShredder.pdb
+C:\Users\Wydrzu\source\repos\APIShredder\APIShredder\obj\Debug\net7.0\APIShredder.genruntimeconfig.cache
+C:\Users\Wydrzu\source\repos\APIShredder\APIShredder\obj\Debug\net7.0\ref\APIShredder.dll
