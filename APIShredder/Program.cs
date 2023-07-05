@@ -7,11 +7,12 @@ Console.WriteLine("Press any key to continue...");
 Console.ReadLine();
 
 int numSock = Setup.GetIntegerData("Choose the number of sockets (possible concurrent slots for api calls):");
-string auth = Setup.GetStringData("Please enter authentication cookie value:");
+string cookieName = Setup.GetStringData("Please enter authentication cookie NAME:");
+string cookieValue = Setup.GetStringData("Please enter authentication cookie VALUE:");
 int reqNum = Setup.GetIntegerData("How many requests to perform? (in total):");
 
 var cookieContainer = new CookieContainer();
-cookieContainer.Add(new Uri("https://baconipsum.com/"), new Cookie("sanoweb_authentication",auth));
+cookieContainer.Add(new Uri("https://baconipsum.com/"), new Cookie(cookieName,cookieValue));
 
 var handler = Setup.SetupHandler(cookieContainer, numSock);
 

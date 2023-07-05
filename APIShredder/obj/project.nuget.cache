@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "UGv7BHzoG/lPAxrjw2RcoLn9hnAMegCgvSn14CYR+VlVHZuj4E7Cccw1DT7QsWJZnlNDBfDfRfg5hL0UubXB3g==",
+  "dgSpecHash": "X6ry7pMyGvxRRB8J9u3aM5xMMQ4c37fi4ffUDxZU3hhDQsso+UQbiCXLDmiBkwv6L/3xpqvKoVSGd3tFJPrfkQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Wydrzu\\source\\repos\\APIShredder\\APIShredder\\APIShredder.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Wydrzu\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.5\\microsoft.netcore.app.runtime.win-x64.7.0.5.nupkg.sha512",
+    "C:\\Users\\Wydrzu\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.5\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.5.nupkg.sha512",
+    "C:\\Users\\Wydrzu\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.5\\microsoft.aspnetcore.app.runtime.win-x64.7.0.5.nupkg.sha512"
+  ],
   "logs": []
 }
