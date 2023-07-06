@@ -10,7 +10,7 @@ public class Http
         client = new HttpClient(handler);
     }
 
-    private async void HandleRequests(int reqNum, string uri)
+    private async Task HandleRequests(int reqNum, string uri)
     {
         try
         {
@@ -20,6 +20,7 @@ public class Http
                 tasks.Add(client.GetAsync(uri));
             }
             await Task.WhenAll(tasks);
+
         }
         catch (Exception ex)
         {
@@ -27,7 +28,7 @@ public class Http
         }
     }
 
-    public void DoWork(int numSock, int reqNum, string uri)
+    public async Task DoWork(int numSock, int reqNum, string uri)
     {
         ConsoleKeyInfo keyInfo;
         do
@@ -35,7 +36,8 @@ public class Http
             Console.Clear();
             Console.WriteLine(numSock + " Sockets, " + reqNum + " Requests");
             Console.WriteLine("Tasks are being performed...");
-            HandleRequests(reqNum, uri);
+            await HandleRequests(reqNum, uri);
+            tasks.Clear();
             Console.WriteLine("Done.");
             Console.WriteLine("Again? (y/n):");
             while (Console.KeyAvailable)
