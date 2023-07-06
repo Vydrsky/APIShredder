@@ -28,7 +28,7 @@ public class Http
         }
     }
 
-    public async Task DoWork(int numSock, int reqNum, string uri)
+    public void DoWork(int numSock, int reqNum, string uri)
     {
         ConsoleKeyInfo keyInfo;
         do
