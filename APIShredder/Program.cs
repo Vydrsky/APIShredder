@@ -19,4 +19,18 @@ var handler = Setup.SetupHandler(cookieContainer, numSock);
 
 Http http = new Http(handler);
 
-http.DoWork(numSock, reqNum, uri);
+ConsoleKeyInfo keyInfo;
+do
+{
+    Console.Clear();
+    Console.WriteLine(numSock + " Sockets, " + reqNum + " Requests");
+    Console.WriteLine("Tasks are being performed...");
+
+    await http.DoWork(numSock, reqNum, uri);
+
+    Console.WriteLine("Done.");
+    Console.WriteLine("Again? (y/n):");
+    while (Console.KeyAvailable)
+        Console.ReadKey(false);
+    keyInfo = Console.ReadKey();
+} while (keyInfo.KeyChar == 'y' || keyInfo.KeyChar == 'Y');

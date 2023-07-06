@@ -28,22 +28,9 @@ public class Http
         }
     }
 
-    public void DoWork(int numSock, int reqNum, string uri)
+    public async Task DoWork(int numSock, int reqNum, string uri)
     {
-        ConsoleKeyInfo keyInfo;
-        do
-        {
-            Console.Clear();
-            Console.WriteLine(numSock + " Sockets, " + reqNum + " Requests");
-            Console.WriteLine("Tasks are being performed...");
-            await HandleRequests(reqNum, uri);
-            tasks.Clear();
-            Console.WriteLine("Done.");
-            Console.WriteLine("Again? (y/n):");
-            while (Console.KeyAvailable)
-                Console.ReadKey(false);
-            keyInfo = Console.ReadKey();
-        } while (keyInfo.KeyChar == 'y' || keyInfo.KeyChar == 'Y');
+        await HandleRequests(reqNum, uri);
+        tasks.Clear();
     }
-
 }
